@@ -44,7 +44,7 @@ while True:
                                         GPIO.output(7, True)
                                         time.sleep(.15)
                                 #print 'restart'
-                                os.system("sudo /sbin/restart")
+                                os.system("sudo /sbin/reboot")
 
         time.sleep(.2)
 
