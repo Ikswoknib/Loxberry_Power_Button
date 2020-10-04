@@ -1,15 +1,22 @@
-<div class="wide">LoxBerry Update Korrektur</div>
-<p>Dieses FIX-Plugin installiert eine aktualisierte Version von LoxBerry Update. Eine Änderung bei GitHub (wovon unsere Updates direkt installiert werden) hat verursacht, dass unsere Abfrage nach der Dateigröße zum Prüfen der Integrität nicht mehr funktioniert.<p>
-<p>Dieser Fix entfernt diese Prüfung. Wir gehen davon aus, dass die Integritätsprüfung beim Entzippen des Pakets ausreicht.<p>
-<p>Nach der Installation LoxBerry Update normal ausführen. Solltest du eine Version <b>unter 1.2.4</b> installieren, wird wieder die alte Version von LoxBerry Update installiert. In diesem Fall musst du dieses Plugin nochmal installieren.</p>
-<p>Ab Version 1.2.4 ist die Korrektur im Update enthalten.</p>
-<p>Wenn alles geschafft ist, kannst du dieses Plugin wieder deinstallieren.</p>
-<p>Viel Glück!</p>
+<div class="wide">Loxberry Powerbutton</div>
+<p>Dieses Plugin stellt die Funktionen eines Powerbuttons an Pin 5 (GPIO-3) eines Raspberry PI bereit. Zudem kann über Pin 7 (GPIO-4) eine R&uuml;ckmelde-LED angeschlossen werden.<p>
+<p>Der Powerbutton muss hierf&uuml;r ein Taster sein, welcher mittels eines PullUp-Widerstandes von 10kOhm an Pin 5 angeschlossen wird. Die LED muss mittels Vorwiderstand zwischen Pin7 und GND angeschlossen werden.<p>
+<p>Folgende Funktionen sind implementiert:</p>
+<p>Bet&auml;tigung des Buttons &lt; 2.5 Sekunden: </p>
+<p>Loxberry Runterfahren, LED blinkt zur Best&auml;tigung 3 mal mit 1 Hz</p>
+<p>Bet&auml;tigung des Buttons &gt; 2.5 Sekunden: </p>
+<p>Loxberry Neu starten, LED blinkt zur Best&auml;tigung 5 mal mit 3 Hz</p>
+<p>Viel Spaß!</p>
 <hr>
-<div class="wide">LoxBerry Update Hotfix</div>
-<p>This HOTFIX plugin installs a newer version of LoxBerry Update. Because of a change at GitHub (from where all of our updates are downloaded directly) our filesize check request fails and LoxBerry stops downloading the new version.</p>
-<p>This hotfix removes this check. We think, that the integrity check of the following unzip should be enough.</p>
-<p>You now can use LoxBerry Update and it should work. If you get a version <b>below 1.2.4</b>, you will again get the old LoxBerry Update version with the problem. In that case, for the next update you have to reinstall this plugin to fix it again.</p>
-<p>From 1.2.4 the fix is in the update package.</p>
-<p>After you've successfully installed the new version, you simply can uninstall this plugin.</p>
-<p>Good luck!</p>
+<div class="wide">LoxBerry Powerbutton</div>
+<p>This plugin provides the functions of a power button on pin 5 (GPIO-3) of a Raspberry PI. In addition, a feedback LED can be connected via pin 7 (GPIO-4).</p>
+<p>The power button must be a button, which is connected to pin 5 by means of a pull-up resistor of 10kOhm. The LED must be connected by means of a series resistor between Pin7 and GND.</p>
+<p>The following functions are implemented:</p>
+<p>Pressing the button &lt; 2.5 seconds:</p>
+<p>Shut down Loxberry, LED flashes 3 times at 1 Hz for confirmation</p>
+<p>Pressing the button &gt; 2.5 seconds:</p>
+<p>Restart Loxberry, LED flashes 5 times at 3 Hz for confirmation</p>
+<p>Have Fun!</p>
+<hr>
+<div class="wide">Schaltplan / circuit diagramm</div>
+<img src="schaltplan.png" width=15%>
