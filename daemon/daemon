@@ -1,1 +1,1 @@
-/opt/loxberry/bin/plugins/power_button/PowerButton &
+$LBHOMEDIR/bin/plugins/power_button/PowerButton &
