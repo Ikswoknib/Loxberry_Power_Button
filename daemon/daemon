@@ -1,1 +1,3 @@
-/opt/loxberry/bin/plugins/power_button/PowerButton.py &
+#!/bin/bash
+
+REPLACELBPBINDIR/PowerButton.py &
